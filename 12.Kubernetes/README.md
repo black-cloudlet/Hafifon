@@ -10,7 +10,6 @@
 It is recommended to deploy minikube on your own VM and get hands-on experience while you are reading the book :)
 Make sure to follow the exercises in the book to fully understand the subjects.
 
-
   **Skip the following chapters**:
     - 15.3
     - 17.4

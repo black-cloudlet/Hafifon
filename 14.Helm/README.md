@@ -53,6 +53,8 @@
     ``` 
 <br>
 
+---
+
 ## 2nd Exercise
 - Check out some of the helm charts in our tactic environment.  
 - Refer to the official [Helm documentation](https://helm.sh/docs/) to better understand chart structure and syntax.
