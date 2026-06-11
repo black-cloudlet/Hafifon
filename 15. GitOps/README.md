@@ -11,3 +11,4 @@
 
 # Exercise 
 go to tactic environment and make the End of Onbording project!
+After that, read "Cloudlet 101" in the Tactic environment. Ask your Hofef for help.
