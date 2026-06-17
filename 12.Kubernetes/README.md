@@ -92,7 +92,6 @@ Make sure to follow the exercises in the book to fully understand the subjects.
 
 **Securing cluster nodes**
   - What is PodSecurityPolicy?
-  - Read about openshift SCC
   - Managing pod’s computational resources:
   - how can you limit the pod’s resources (requests, limits ,QOS etc)
   - How does the cpu request affect the system?
