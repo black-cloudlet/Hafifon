@@ -16,10 +16,10 @@
   - What does the `-d` flag do when starting a container?
 - Docker Compose 
 
-Do NOT read the following chapters:
+**Do NOT read the following chapters:
 Docker swarm
 Deploying apps with docker stacks
-WebAssembly
+WebAssembly**
 
 
 ### Exercise 
