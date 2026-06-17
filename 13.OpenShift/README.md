@@ -27,6 +27,7 @@
     - network
     - dns
     - image registry
+    - openshift-monitoring
 
 ### Openshift types 
 - Read about virtualized openshift
@@ -40,3 +41,12 @@
 
 ### Openshift Authentication 
 - How do authentication and authorization work in OpenShift?
+
+### Openshift Permissions
+- Read about openshift SCC
+
+### Openshift Monitoring
+- What is a ServiceMonitor CustomResourceDefinition (CRD) and what is its primary role?
+- How does a ServiceMonitor use labels and selectors to dynamically discover targets (Services) for scraping metrics?
+- What are the required fields to configure a basic ServiceMonitor (e.g., endpoints, ports, selector)?
+- What is PrometheusRule? how to use it?
