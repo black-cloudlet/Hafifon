@@ -41,6 +41,7 @@
 
 ### Openshift Air-Gapped (Disconnected) 
 - What is an air-gapped (disconnected) environment? Why is it common in secret enviroment?
+- What is a bastion host? Why is it commonly used in air-gapped environments?
 - What does a cluster normally pull from the internet during installation and during its lifetime? (Think about images, operators and updates)
 - What is a mirror registry? What is the difference between a mirror registry and a regular registry?
 - What is `oc-mirror`? What does the `ImageSetConfiguration` file define?
@@ -50,6 +51,7 @@
 - What is OperatorHub in a disconnected cluster? What are CatalogSources and why do we need to create custom ones?
 - What is the OpenShift Update Service (OSUS)? How do you update a disconnected cluster?
 - What does the `pull-secret` contain? Why does it need to include credentials for the mirror registry?
+- Ask your Hofef to add you to the black-cloudlet organization
 
 ### Openshift Authentication 
 - How do authentication and authorization work in OpenShift?
