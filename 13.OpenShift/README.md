@@ -39,6 +39,18 @@
 - What is the different between UPI and IPI installations (User/Installer provisioned installation)?
 - What is a Kubernets CSI? Why is it important to setup right after the installation of a cluster?
 
+### Openshift Air-Gapped (Disconnected) 
+- What is an air-gapped (disconnected) environment? Why is it common in Edge and tactical environments?
+- What does a cluster normally pull from the internet during installation and during its lifetime? (Think about images, operators and updates)
+- What is a mirror registry? What is the difference between a mirror registry and a regular registry?
+- What is `oc-mirror`? What does the `ImageSetConfiguration` file define?
+- How can you transfer the mirrored content to a network that has no connection at all? (Think about the mirror-to-disk and disk-to-mirror flow)
+- How do you tell the cluster to pull images from the mirror instead of the original registries? (Read about `ImageContentSourcePolicy`, `ImageDigestMirrorSet` and `ImageTagMirrorSet`)
+- How do you make the cluster trust the certificate of the mirror registry?
+- What is OperatorHub in a disconnected cluster? What are CatalogSources and why do we need to create custom ones?
+- What is the OpenShift Update Service (OSUS)? How do you update a disconnected cluster?
+- What does the `pull-secret` contain? Why does it need to include credentials for the mirror registry?
+
 ### Openshift Authentication 
 - How do authentication and authorization work in OpenShift?
 
@@ -66,3 +78,14 @@
     - How does a ServiceMonitor use labels and selectors to dynamically discover targets (Services) for scraping metrics?
     - What are the required fields to configure a basic ServiceMonitor (e.g., endpoints, ports, selector)?
     - What is PrometheusRule? how to use it?
+
+### Openshift Virtualization
+- What is KubeVirt? What problem does it solve?
+- What is OpenShift Virtualization and how is it related to KubeVirt?
+- How can a VM run inside a Kubernetes pod? (Read about `virt-launcher`, libvirt and QEMU/KVM)
+- What are the main KubeVirt components? (`virt-api`, `virt-controller`, `virt-handler`, `virt-launcher`)
+- What is a `VirtualMachine` object? What is the difference between a `VirtualMachine` and a `VirtualMachineInstance`?
+- How are VM disks stored? (Think about PVCs and CDI, the Containerized Data Importer)
+- How is VM networking done? What is the difference between the pod network and Multus secondary networks?
+- What is live migration? What does the cluster need in order to support it?
+- What are the pros and cons of running VMs on OpenShift compared to a regular hypervisor (e.g. vSphere)?
