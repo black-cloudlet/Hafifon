@@ -51,7 +51,6 @@
 - What is OperatorHub in a disconnected cluster? What are CatalogSources and why do we need to create custom ones?
 - What is the OpenShift Update Service (OSUS)? How do you update a disconnected cluster?
 - What does the `pull-secret` contain? Why does it need to include credentials for the mirror registry?
-- Ask your Hofef to add you to the black-cloudlet organization
 
 ### Openshift Authentication 
 - How do authentication and authorization work in OpenShift?
