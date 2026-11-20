@@ -38,21 +38,6 @@ Deploying apps with docker stacks
 WebAssembly**
 
 
-### Exercise 
-- Create the following scenario:
-  - Start two WordPress docker containers and one MySQL container (Both WordPress should use the MySQL container as its database)
-  - Add an nginx docker container as a load balancer between the two WordPress containers
-  - Create a docker-compose file for creating the scenario
-- Podman
-  - Run the same scenario with Podman as a non-root user, with all the containers in a single pod
-  - Make one of the containers start automatically on boot, as a systemd service
-- Moving images
-  - Use `docker save` to save all the images of the scenario into a single tar file
-  - Copy the tar file to a second machine that has no internet access, use `docker load` and run the scenario there
-  - Use `skopeo inspect` to see the tags and layers of the `nginx` image on Docker Hub, without pulling it
-  - Run a local registry (using the `registry` image), and use `skopeo copy` to copy the scenario images into it
-  - Use `skopeo copy` to copy an image from the local registry into a `docker-archive` tar file, then load it with Podman
-
 ### Read
 - Docker's [Get Started](https://docs.docker.com/get-started/)
 - [Docker docs site](https://docs.docker.com/storage/)
