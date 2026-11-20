@@ -67,7 +67,9 @@
     - What is Alertmanager?
 - Exporters
     - What is an exporter? Why do we need it?
-    - What does `node_exporter` expose? What about `kube-state-metrics`?
+    - What does `node_exporter` expose? 
+    - What about `kube-state-metrics`?
+    - What is `blackbox-exporter`?
     - What is the `/metrics` endpoint? What format does it return?
 - Grafana
     - What is Grafana? How is it related to Prometheus?
