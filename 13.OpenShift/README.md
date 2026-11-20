@@ -46,7 +46,23 @@
 - Read about openshift SCC
 
 ### Openshift Monitoring
-- What is a ServiceMonitor CustomResourceDefinition (CRD) and what is its primary role?
-- How does a ServiceMonitor use labels and selectors to dynamically discover targets (Services) for scraping metrics?
-- What are the required fields to configure a basic ServiceMonitor (e.g., endpoints, ports, selector)?
-- What is PrometheusRule? how to use it?
+- Prometheus
+    - What is Prometheus? What problem does it solve?
+    - What is the difference between the pull model (Prometheus) and the push model?
+    - What is a metric? What are labels and why are they important?
+    - What are the 4 metric types? (Counter, Gauge, Histogram, Summary)
+    - What is PromQL? What does the `rate()` function do and why is it used with counters?
+    - What is Alertmanager?
+- Exporters
+    - What is an exporter? Why do we need it?
+    - What does `node_exporter` expose? What about `kube-state-metrics`?
+    - What is the `/metrics` endpoint? What format does it return?
+- Grafana
+    - What is Grafana? How is it related to Prometheus?
+    - What is a data source? What is a dashboard?
+    - Where can you see dashboards in the OpenShift console?
+- Monitoring in OpenShift
+    - What is a ServiceMonitor CustomResourceDefinition (CRD) and what is its primary role?
+    - How does a ServiceMonitor use labels and selectors to dynamically discover targets (Services) for scraping metrics?
+    - What are the required fields to configure a basic ServiceMonitor (e.g., endpoints, ports, selector)?
+    - What is PrometheusRule? how to use it?

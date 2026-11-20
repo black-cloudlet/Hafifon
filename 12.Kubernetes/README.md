@@ -114,11 +114,6 @@ Make sure to follow the exercises in the book to fully understand the subjects.
   - What is CustomResourceDefinition?
   - What is a custom controller and why do we need it?
 
-**Monitoring (not in the book)**
-  - Read the Prometheus and Grafana part of the Monitoring chapter first (`01.BasicLinux/12.Monitoring.md`)
-  - How does Prometheus know which targets to scrape in Kubernetes? (Read about ServiceMonitor)
-  - What does `kube-state-metrics` expose? How is it different from `node_exporter`?
-
 **Additional Sources**
 - [Certified Kubernetes Administrator course from Udemy](https://drive.google.com/drive/folders/1GNXztUdtESDTt5uefyV7n5NpofaxLPn4?usp=sharing)
 
