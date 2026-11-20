@@ -114,6 +114,23 @@ Make sure to follow the exercises in the book to fully understand the subjects.
   - What is CustomResourceDefinition?
   - What is a custom controller and why do we need it?
 
+**Monitoring (not in the book)**
+  - Prometheus
+    - What is Prometheus? What problem does it solve?
+    - What is the difference between the pull model (Prometheus) and the push model?
+    - What is a metric? What are labels and why are they important?
+    - What are the 4 metric types? (Counter, Gauge, Histogram, Summary)
+    - How does Prometheus know which targets to scrape in Kubernetes? (Read about ServiceMonitor)
+    - What is PromQL? What does the `rate()` function do and why is it used with counters?
+    - What is Alertmanager?
+  - Exporters
+    - What is an exporter? Why do we need it?
+    - What does `node_exporter` expose? What about `kube-state-metrics`?
+    - What is the `/metrics` endpoint? What format does it return?
+  - Grafana
+    - What is Grafana? How is it related to Prometheus?
+    - What is a data source? What is a dashboard?
+
 **Additional Sources**
 - [Certified Kubernetes Administrator course from Udemy](https://drive.google.com/drive/folders/1GNXztUdtESDTt5uefyV7n5NpofaxLPn4?usp=sharing)
 
