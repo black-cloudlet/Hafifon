@@ -40,8 +40,8 @@
 - What is a Kubernets CSI? Why is it important to setup right after the installation of a cluster?
 
 ### Openshift Node OS (CoreOS)
-- What is CoreOS (Red Hat Enterprise Linux CoreOS, RHCOS)? How is it different from a regular RHEL?
 - What is OSTree? What is `rpm-ostree`? Why is the root filesystem read-only?
+- What is CoreOS (Red Hat Enterprise Linux CoreOS, RHCOS)? How is it different from a regular RHEL?
 - How do OS updates work on CoreOS? (Think about atomic updates and rollback)
 - What is a MachineConfig? What is a MachineConfigPool?
 - What happens to a node when you apply a MachineConfig? (Think about the Machine Config Operator, rendered configs and node reboots)
