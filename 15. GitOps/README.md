@@ -11,9 +11,8 @@
 
 # Exercise 
 go to tactic environment and make the End of Onbording project!
-After that, read "Cloudlet 101" in the Tactic environment. Ask your Hofef for help.
-
 
 # Last Step
-Congratulations, you finished the Hafifa!
+Congratulations, you finished the general Hafifa!
 Ask your Hofef to add you to the black-cloudlet organization.
+After that, read "Cloudlet 101" in the Tactic environment. Ask your Hofef for help and continue with the small team hafifa in the Tactic environment.
