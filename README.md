@@ -17,6 +17,6 @@ Make sure to follow the chapters's order, read carefully and ejnoy learning !!
 | Virtualization | 2 Day | X | - |
 | Containers | 6 Days | X | - |
 | Kubernetes | 12 Days | V | Personal Hofef |
-| Openshift | 4 Days | X | - |
+| Openshift | 5 Days | X | - |
 | Helm | 1 Day | X | - |
 | GitOps | 5 Days | X | - |
