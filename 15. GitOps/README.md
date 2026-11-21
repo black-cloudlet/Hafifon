@@ -9,10 +9,7 @@
     - What is a generator in applicationset? What are the different types?
 
 
-### Exercise
-Go to the Tactic environment and make the End of Onboarding project!
-
 ### Last Step
 Congratulations, you finished the general Hafifa!
 Ask your Hofef to add you to the black-cloudlet organization.
-After that, read "Cloudlet 101" in the Tactic environment. Ask your Hofef for help and continue with the small team hafifa in the Tactic environment.
+After that, read "Cloudlet 101" in the Tactic environment, and continue with the team onboarding and small onboarding project. Ask your Hofef for help
