@@ -6,10 +6,10 @@ Make sure to follow the chapters's order, read carefully and ejnoy learning !!
 | Chapter | Time Suggestment (in work days)| Has Test? | Mr.Tester |
 | --- | --- | --- | --- |
 | Basic Linux | 5 Days | V | Personal Hofef |
-| Storage | 3 Days | V | Ewa Izgiyaev |
-| Boot | 2 Days | V | Tomer Aroyo |
+| Storage | 3 Days | V | Tomer Aroyo |
+| Boot | 2 Days | V | Daniel Battat |
 | Git | 2 Days | X | - |
-| Ansible | 3 Days | V | Yuval Dekel |
+| Ansible | 3 Days | V | Yonatan Havakuk |
 | Networks | 15 Days | V | Idan Bazel & Noam Itzhak Edan | 
 | Basic Linux Security | 2 Days | X | - |
 | Time | 1 Day | X | - |
