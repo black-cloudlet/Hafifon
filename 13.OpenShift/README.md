@@ -44,7 +44,7 @@
 - What is CoreOS (Red Hat Enterprise Linux CoreOS, RHCOS)? How is it different from a regular RHEL?
 - How do OS updates work on CoreOS? (Think about atomic updates and rollback)
 - What is a MachineConfig? What is a MachineConfigPool?
-- What happens to a node when you apply a MachineConfig? (Think about the Machine Config Operator, rendered configs and node reboots)
+- What happens to a node when you apply a MachineConfig? (Read about the Machine Config Operator, rendered configs and node reboots)
 - Why is it not recommended to change files directly on an OpenShift node?
 - What is `bootc`? How is it related to OSTree?
 - What is the idea behind "image mode" (booting an OS from a container image)? What are the advantages?
