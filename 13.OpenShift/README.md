@@ -42,7 +42,7 @@
 ### Openshift Node OS (CoreOS)
 - What is OSTree? What is `rpm-ostree`? Why is the root filesystem read-only?
 - What is CoreOS (Red Hat Enterprise Linux CoreOS, RHCOS)? How is it different from a regular RHEL?
-- How do OS updates work on CoreOS? (Think about atomic updates and rollback)
+- How do OS updates work on CoreOS? (Read about atomic updates and rollback)
 - What is a MachineConfig? What is a MachineConfigPool?
 - What happens to a node when you apply a MachineConfig? (Read about the Machine Config Operator, rendered configs and node reboots)
 - Why is it not recommended to change files directly on an OpenShift node?
@@ -55,7 +55,7 @@
 - What does a cluster normally pull from the internet during installation and during its lifetime? (Think about images, operators and updates)
 - What is a mirror registry? What is the difference between a mirror registry and a regular registry?
 - What is `oc-mirror`? What does the `ImageSetConfiguration` file define?
-- How can you transfer the mirrored content to a network that has no connection at all? (Think about the mirror-to-disk and disk-to-mirror flow)
+- How can you transfer the mirrored content to a network that has no connection at all? (Read about the mirror-to-disk and disk-to-mirror flow)
 - How do you tell the cluster to pull images from the mirror instead of the original registries? (Read about `ImageDigestMirrorSet` and `ImageTagMirrorSet`)
 - How do you make the cluster trust the internal certificate of network?
 - What is OperatorHub in a disconnected cluster? What are CatalogSources and why do we need to create custom ones?
@@ -98,7 +98,7 @@
 - How can a VM run inside a Kubernetes pod? (Read about `virt-launcher`, libvirt and QEMU/KVM)
 - What are the main KubeVirt components? (`virt-api`, `virt-controller`, `virt-handler`, `virt-launcher`)
 - What is a `VirtualMachine` object? What is the difference between a `VirtualMachine` and a `VirtualMachineInstance`?
-- How are VM disks stored? (Think about PVCs and CDI, the Containerized Data Importer)
+- How are VM disks stored? (Read about PVCs and CDI, the Containerized Data Importer)
 - How is VM networking done? What is the difference between the pod network and Multus secondary networks?
 - What is live migration? What does the cluster need in order to support it?
 - What are the pros and cons of running VMs on OpenShift compared to a regular hypervisor (e.g. vSphere)?
