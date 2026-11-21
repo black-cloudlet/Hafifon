@@ -8,8 +8,7 @@
     - Read about ArgoCD's Application and ApplicationSet resources. Why are they useful?
     - What is a generator in applicationset? What are the different types?
 
-
 ### Last Step
 Congratulations, you finished the general Hafifa!
 Ask your Hofef to add you to the black-cloudlet organization.
-After that, read "Cloudlet 101" in the Tactic environment, and continue with the team onboarding and small onboarding project. Ask your Hofef for help
+After that, read "Cloudlet 101" in the Tactic environment, and continue with the team onboarding and small onboarding project. Ask your Hofef for help.
